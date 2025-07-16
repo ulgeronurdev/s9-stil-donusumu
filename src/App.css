@@ -13,6 +13,15 @@
   gap: 2rem;
   overflow: auto;
 }
+@layer utilities {
+  .bg-urgent {
+    background-color: theme("colors.red.500");
+  }
+
+  .bg-normal {
+    background-color: theme("colors.blue.500");
+  }
+}
 
 .column {
   flex: 1;
